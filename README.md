@@ -42,7 +42,7 @@ This is a native implementation
 
 🐍 python way
 
-Using **default dict** to reduce the number of lines in the code
+Using **defaultdict** to reduce the number of lines in the code
 
     from collections import defaultdict
     word_count_dict = defaultdict(int)
@@ -50,7 +50,7 @@ Using **default dict** to reduce the number of lines in the code
     for word in text.split(" "):
         word_count_dict[word] += 1
 
-Using Counter to do
+Using **Counter** to do
 
     from collections import Counter
     word_count_dict = Counter()
@@ -58,5 +58,6 @@ Using Counter to do
         word_count_dict[word] += 1  
 
 ⚠️ Warning
-- In Counter, the value is always an Interger
+- In **Counter**, the value is always an **Interger**.
+- In **defaultdict**, it defaults a key to zero if it's not found in the **defaultdict**.
 
