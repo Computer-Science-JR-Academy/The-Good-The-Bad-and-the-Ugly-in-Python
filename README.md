@@ -40,7 +40,7 @@ This is a native implementation
         else:
             word_count_dict[word] = 1
 
-✅ python way
+🐍 python way
 
 Using **default dict** to reduce the number of lines in the code
 
@@ -56,3 +56,6 @@ Using Counter to do
     word_count_dict = Counter()
     for word in text.split(" "):
         word_count_dict[word] += 1  
+
+⚠️ In Counter, the value is always an Interger
+
