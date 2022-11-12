@@ -1,5 +1,5 @@
 # Useful Python Tips and Tricks Every Programmer Should Know
-** Minimize for loop usage **
+**Minimize for loop usage**
 
 There are three popular ways to write a for loop in Python
 
@@ -10,7 +10,7 @@ There are three popular ways to write a for loop in Python
 
     for i in range(len(x)):
         sum_squared += x[i] ** 2
-        
+
     print(sum_squared)
 
 ✅ good way
