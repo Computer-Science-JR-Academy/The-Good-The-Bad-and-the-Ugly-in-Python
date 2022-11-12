@@ -13,7 +13,6 @@ There are three popular ways to write a for loop in Python
 
 ✅ good way
 
-    def good_way():
     x = [0, 2, 4, 6, 8, 10]
     sum_squared = 0
 
@@ -57,8 +56,3 @@ Using Counter to do
     word_count_dict = Counter()
     for word in text.split(" "):
         word_count_dict[word] += 1  
-
-
-
-
-
