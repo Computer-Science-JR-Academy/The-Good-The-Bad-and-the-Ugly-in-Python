@@ -17,6 +17,7 @@ def good_way():
 def python_way():
     x = [0, 2, 4, 6, 8, 10]
     sum_squared = sum([y**2 for y in x])
+    print(sum_squared)
 
 if __name__ == '__main__':
     bad_way()
