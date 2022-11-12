@@ -42,7 +42,7 @@ This is a native implementation
 
 ✅ python way
 
-Using **default dict* to reduce the number of lines in the code
+Using **default dict** to reduce the number of lines in the code
 
     from collections import defaultdict
     word_count_dict = defaultdict(int)
