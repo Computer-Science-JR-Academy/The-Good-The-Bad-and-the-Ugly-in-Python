@@ -57,5 +57,6 @@ Using Counter to do
     for word in text.split(" "):
         word_count_dict[word] += 1  
 
-⚠️ In Counter, the value is always an Interger
+⚠️ Warning
+- In Counter, the value is always an Interger
 
