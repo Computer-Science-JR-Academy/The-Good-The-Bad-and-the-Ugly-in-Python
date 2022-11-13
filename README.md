@@ -74,6 +74,27 @@ Using **Counter** to do
         retval = 0
         for y in args:
             retval += y
+
+## **Program to Measure the Elapsed Time**
+
+❌ bad way
+    
+    import time
+
+    start_time = time.time()
+
+    # The thing to time. Using sleep as an example
+    time.sleep(10)
+
+    end_time = time.time()
+    elapsed_time = end_time - start_time
+
+    print(elapsed_time)
+
+🐍 python way
+
+    ...thinking...
+
     
 
 
