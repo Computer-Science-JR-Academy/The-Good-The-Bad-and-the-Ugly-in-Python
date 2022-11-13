@@ -61,3 +61,20 @@ Using **Counter** to do
 - In **Counter**, the value is always an **Interger**.
 - In **defaultdict**, it defaults a key to zero if it's not found in the **defaultdict**.
 
+## **How to create a function that adds many numbers**
+
+❌ bad way
+
+    def addr(x, y):
+        return x + y
+
+🐍 python way
+
+    def addr(*args):
+        retval = 0
+        for y in args:
+            retval += y
+    
+
+
+
